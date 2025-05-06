@@ -164,7 +164,7 @@
       <div class="popup-text">
         <strong>${loc.emoji} ${loc.place}</strong><br>
         ${loc.note}
-        ${loc.image ? `<img src="${loc.image}" alt="Memory photo" />` : ""}
+       ${loc.image ? `<img src="${loc.image}" alt="Memory photo" />` : ""}
       </div>
     `;
     L.marker(loc.coords, { icon: L.divIcon({ className: 'heart-marker', html: '💖', iconSize: [30, 30] }) })
