@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Our Love Story Map</title>
+  <title>For the boy who mapped himself into my heart :)</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
   <style>
     #map {
       height: 100vh;
       width: 100%;
     }
     .popup-text {
-      font-family: 'Dancing Script', cursive;
+      font-family: 'PT+Serif';
       font-size: 16px;
     }
     img {
@@ -30,7 +31,7 @@
       padding: 15px;
       border-radius: 10px;
       font-size: 18px;
-      font-family: 'Dancing Script', cursive;
+      font-family: 'PT Serif';
       color: #ff6f61;
     }
     .popup-overlay {
@@ -89,7 +90,7 @@
 
   // Using OpenStreetMap as the tile provider for better compatibility
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: 'Made with 💖 using LeafletJS',
+    attribution: 'Made using LeafletJS',
   }).addTo(map);
 
   const locations = [
